@@ -31,9 +31,14 @@
   </nav>
   <!-- main element  -->
   <main>
+    <input id="operation" value="0" type="hidden"> <!-- hidden input contains data  -->
+    <input id="operand" value=""  type="hidden"> <!-- hidden input stores the first number  -->
+    <input id="equivalent" value="0"  type="hidden"> <!--   -->
+    <input id="decimalVar" value="0"  type="hidden"> <!--   -->
+
     <table>
         <caption><input id="result" type="text" Value="0" readonly></caption>
-
+        
         <tr>
           <td><input id="allclear" value="ac" type="button" onclick="allClear()"></td>
           <td><input id="square" value="x&sup2;" type="button" onclick="square()"></td>
@@ -63,7 +68,7 @@
         </tr>
 
         <tr>
-          <td><input id="plusminus" value="&plusmn;" type="button" onclick="plusminus()"></td>
+          <td><input id="plusminus" value="&plusmn;" type="button" onclick="plusMinus()"></td>
           <td><input id="zero" value="0" type="button" onclick="input(0)"></td>
           <td><input id="decimal" value="." type="button" onclick="decimalPoint()"></td>
           <td><input id="equals" value="=" type="button" onclick="equals()"></td>
