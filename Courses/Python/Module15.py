@@ -3,28 +3,28 @@
 
 print("\n-> Reading Files - read()")
 
-a = open("Module15-Part1.txt", "r")
+a = open("Module15.txt", "r")
 print(a.read())
 a.close()
 
 
 print("\n-> Reading Files - Readline() - first line")
 
-a = open("Module15-Part1.txt", "r")
+a = open("Module15.txt", "r")
 print(a.readline())
 a.close()
 
 
 print("\n-> Reading Files - read() - first 7 characters")
 
-a = open("Module15-Part1.txt", "r")
+a = open("Module15.txt", "r")
 print(a.read(7))
 a.close()
 
 
 print("\n-> Reading Files - as myfile")
 
-with open("Module15-Part1.txt") as myfile:
+with open("Module15.txt") as myfile:
     contents = myfile.read()
     print(contents)
     a.close()
@@ -32,18 +32,18 @@ with open("Module15-Part1.txt") as myfile:
 
 print("\n-> Writing Files: 'a' - Append")
 
-a = open("Module15-Part1.txt", "a")
+a = open("Module15.txt", "a")
 a.write("\nHere is another line in our text file")
 a.close()
 
-a = open("Module15-Part1.txt", "r")
+a = open("Module15.txt", "r")
 print(a.read())
 a.close()
 
 
 print("\n-> Writing Files: 'w' - Overwrite")
 
-a = open("Module15-Part1.txt", "w")
+a = open("Module15.txt", "w")
 a.write("Hello Rui!")
 a.write("\nHello World!")
 a.close()
