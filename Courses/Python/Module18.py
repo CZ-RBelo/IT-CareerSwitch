@@ -1,7 +1,5 @@
 # Reading Console Inputs
 
-src_folder="c:/Users/jrbel/Workspace/IT-CareerSwitch/Courses/Python/"
-
 print("\n-> Reading Console Inputs")
 
 txt = input("Can you see this? Yes or No")
