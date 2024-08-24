@@ -1,7 +1,5 @@
 # Reading Command Line Argument
 
-src_folder="c:/Users/jrbel/Workspace/IT-CareerSwitch/Courses/Python/"
-
 print("\n-> Reading Command Line Argument")
 
 
